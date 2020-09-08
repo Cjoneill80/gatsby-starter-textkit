@@ -8,10 +8,7 @@ import SEO from "../components/seo"
 
 const Messenger: React.FC<PageProps<DataProps>> = ({ path }) => {
   
-  if (typeof window !== 'undefined') {
-    navigate ("/messenger");
-  }
-
+ 
   return (
   <Layout>
     <SEO title="TextKit" />
