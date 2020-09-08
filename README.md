@@ -109,7 +109,12 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/Statflo/gatsby-starter-textkit)
 
-Deploy to Gatsby Cloud for instant connection to CMS systems:
+[![Deploy to Azure](https://azurecomcdn.azureedge.net/mediahandler/acomblog/media/Default/blog/deploybutton.png)](https://azuredeploy.net/)
+
+## 💫 Deploy to Gatsby Cloud 
+
+Provides instant connection to CMS systems:
+
     Contentful
     Cosmic JS
     DatoCMS
@@ -122,14 +127,12 @@ Deploy to Gatsby Cloud for instant connection to CMS systems:
     Strapi
     WordPress
 
-Or instant deploy to CDN hosts:
+And instant deploy to CDN hosts:
+
     Netlify
     Fastly
     Vercel
     Google Cloud Storage
     Firebase
     AWS S3
-    
-
-
-<!-- AUTO-GENERATED-CONTENT:END -->
+  
