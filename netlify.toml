@@ -7,4 +7,5 @@
 
 [build]
   base = "/"
+  publish = "public/"
   command = "gatsby build"
