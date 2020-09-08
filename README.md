@@ -24,11 +24,11 @@ Install dependancies
 If running locally, use  .env.development  or .env.production files
 
     AUTH0_DOMAIN=X.auth0.com
-    AUTH0_CLIENT_ID=(insert here from auth0)
+    AUTH0_CLIENT_ID=(insert Auth0)
     AUTH0_CALLBACK_URL=(url)
-    TEXTKIT_PATH=(url))
+    TEXTKIT_PATH=(url)
 
-    Use http://localhost:8000/ or http://localhost:9000/ for the url if running locally
+    Use http://localhost:8000 or http://localhost:9000 for the url if running locally
 
 To run locally
     gatsby develop
