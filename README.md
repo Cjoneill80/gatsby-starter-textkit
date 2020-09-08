@@ -11,12 +11,16 @@
 
 ## 🚀 Run
 
+Install NPM and Yarn
+    https://www.npmjs.com/get-npm
+    https://classic.yarnpkg.com/en/docs/install
+
 Install Gatsby CLI
+    npm install -g gatsby-cli
 
-Use 'gatsby develop' to run locally
-Use 'gatsby build' then 'gatsby serve' to run production verion
+Install dependancies
+    yarn install
 
-Deploy to Netlify and set ENV variables.
 If running locally, use  .env.development  or .env.production files
 
     AUTH0_DOMAIN=X.auth0.com
@@ -26,10 +30,21 @@ If running locally, use  .env.development  or .env.production files
 
     Use http://localhost:8000/ or http://localhost:9000/ for the url if running locally
 
+To run locally
+    gatsby develop
+
+To build a production version and preview
+    gatsby build
+    gatsby serve
+
+You'll need a demo login to test with.
+
+Deploy to Netlify or Vercel, and set ENV variables when read to see live
+
 
 1.  **Open the source code and start editing!**
 
-    Your site is now running at `http://localhost:8000`!
+    Your app will run locally at `http://localhost:8000`!
 
     _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql)._
 
