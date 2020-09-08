@@ -12,13 +12,16 @@
 ## 🚀 Run
 
 Install NPM and Yarn
+
     https://www.npmjs.com/get-npm
     https://classic.yarnpkg.com/en/docs/install
 
 Install Gatsby CLI
+
     npm install -g gatsby-cli
 
 Install dependancies
+
     yarn install
 
 If running locally, use  .env.development  or .env.production files
@@ -31,9 +34,11 @@ If running locally, use  .env.development  or .env.production files
     Use http://localhost:8000 or http://localhost:9000 for the url if running locally
 
 To run locally
+
     gatsby develop
 
 To build a production version and preview
+
     gatsby build
     gatsby serve
 
