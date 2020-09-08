@@ -1,6 +1,10 @@
 [template.environment]
   AUTH0_DOMAIN = "set your Auth0 domain"
-  AUTH0_CLIENT_ID = "set your auth0 client ID"
-  AUTH0_CALLBACK_URL = "set this to the Url you deploy this to"
+  AUTH0_CLIENT_ID = "set your Auth0 client ID"
+  AUTH0_CALLBACK_URL = "set this to where this will deply"
   TEXTKIT_PATH = "set your Textkit embedded path"
   AUTH0_AUDIENCE = "set your Auth0 audience here"
+
+[build]
+  base = "/"
+  command = "gatsby build"
